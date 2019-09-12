@@ -7,7 +7,7 @@ class Maruti  extends Car {
         this.carPrice=carPrice;
     }
 
-    @Override
+  //  @Override
     double getResalePrice() {
         return carPrice*0.80;
     }
